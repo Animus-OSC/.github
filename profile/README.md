@@ -8,7 +8,8 @@
 
 We treat software, research, media and interactive worlds as parts of one evidence-driven system: ideas should be inspectable, computation should be reproducible, authority should remain explicit, and users should retain control over their data and devices.
 
-[**kapakka.org**](https://kapakka.org) · [**Research**](https://kapakka.org/research/) · [**Link**](https://kapakka.org/link/) · [**Systems**](https://kapakka.org/systems/) · [**Public DataLab SDK**](https://github.com/Animus-OSC/animus-datalab-sdk)
+**Public web entry point:** `kapakka.org`  
+**Public GitHub code:** [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk)
 
 ## Programs
 
@@ -18,11 +19,11 @@ A user-owned, local-first personal computing direction in which models, devices 
 
 ### Animus Link
 
-Secure connectivity research and production engineering around cryptographic identity, encrypted sessions, private discovery, relay-assisted transport and explicit authority boundaries. Public product/research context lives at **[kapakka.org/link](https://kapakka.org/link/)**; repository visibility follows the project's graduation/security policy rather than the needs of this profile page.
+Secure connectivity research and production engineering around cryptographic identity, encrypted sessions, private discovery, relay-assisted transport and explicit authority boundaries. Public product/research context is published through the Animus/Kapakka web surface; repository visibility follows the project's graduation/security policy rather than the needs of this profile page.
 
 ### Animus DataLab
 
-Governed ML/research infrastructure built around Control Plane / Data Plane separation, reproducible execution, lineage, audit and bounded artifact handling. The currently public code surface is the typed, zero-runtime-dependency **[Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk)**.
+Governed ML/research infrastructure built around Control Plane / Data Plane separation, reproducible execution, lineage, audit and bounded artifact handling. The currently public code surface is the typed, zero-runtime-dependency [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk).
 
 ### Animus University & Adventure
 
@@ -57,13 +58,10 @@ Animus uses a restrained systems aesthetic: graphite and mineral surfaces, cold 
 
 Repository README art is stored with the source that uses it. Production documentation should not depend on temporary generation URLs or third-party image CDNs.
 
-## Public entry points
+## Public surfaces
 
-- **[kapakka.org](https://kapakka.org)** — public Animus browser/research/University entry point.
-- **[Research](https://kapakka.org/research/)** — published research and knowledge surfaces.
-- **[Link](https://kapakka.org/link/)** — public Link context.
-- **[Systems](https://kapakka.org/systems/)** — public engineering systems context.
-- **[Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk)** — currently public GitHub code surface.
+- `kapakka.org` — public Animus browser/research/University entry point. Link health is verified independently from this repository before release claims rely on it.
+- [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk) — currently public GitHub code surface.
 
 ## Contributing
 
