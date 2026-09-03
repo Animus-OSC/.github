@@ -2,71 +2,93 @@
   <img src="./assets/readme-hero.svg" width="100%" alt="Animus Open Source University — systems, research and world" />
 </p>
 
-# Animus Open Source University
+# Animus OSC
 
-**Animus is an international open-source university and engineering laboratory building human-controlled computing systems, reproducible research infrastructure, secure connectivity, and browser-native learning worlds.**
+**Open-source engineering for human-controlled systems, reproducible AI infrastructure, and secure connectivity.**
 
-We treat software, research, media and interactive worlds as parts of one evidence-driven system: ideas should be inspectable, computation should be reproducible, authority should remain explicit, and users should retain control over their data and devices.
+Animus is an engineering laboratory and open-source university. We build systems where authority, evidence, failure boundaries, and reproducibility are explicit enough to inspect and test.
 
-**Public web entry point:** `kapakka.org`  
-**Public GitHub code:** [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk)
+**Public entry point:** `kapakka.org`  
+**Public code:** [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk)
 
-## Programs
+## What is public today
 
-### AOS / Personal Cell
+### Animus DataLab SDK
 
-A user-owned, local-first personal computing direction in which models, devices and external services are replaceable capabilities beneath a persistent personal layer. The public research direction emphasizes encrypted user-controlled continuity, minimum-sufficient disclosure and useful offline operation. Target architecture is labeled as target architecture rather than presented as universally deployed product behavior.
+A typed, zero-runtime-dependency Python SDK for governed ML and research workflows.
 
-### Animus Link
+- dataset and immutable-version registration
+- experiment/run lifecycle and project-scoped dispatch
+- integrity-aware artifact streaming
+- signed CI provenance
+- bounded non-blocking telemetry
+- predictable failure semantics
+- Python 3.10-3.14, PEP 561 typing and Apache-2.0 licensing
 
-Secure connectivity research and production engineering around cryptographic identity, encrypted sessions, private discovery, relay-assisted transport and explicit authority boundaries. Public product/research context is published through the Animus/Kapakka web surface; repository visibility follows the project's graduation/security policy rather than the needs of this profile page.
+Repository: [Animus-OSC/animus-datalab-sdk](https://github.com/Animus-OSC/animus-datalab-sdk)
 
 ### Animus DataLab
 
-Governed ML/research infrastructure built around Control Plane / Data Plane separation, reproducible execution, lineage, audit and bounded artifact handling. The currently public code surface is the typed, zero-runtime-dependency [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk).
+Governed ML infrastructure built around explicit **Control Plane / Data Plane** separation, reproducible execution, lineage, audit, bounded artifact handling, and security-sensitive deployment boundaries.
 
-### Animus University & Adventure
+The current public GitHub code surface is the SDK above. Server-side implementation remains private while interfaces and release boundaries are graduated deliberately.
 
-The University is not an LMS. It is a learning system spanning research, primary sources, lectures, evidence, notebooks, simulations, engineering and immersive Adventure. The learning loop is:
+### Animus Link
 
-```text
-curiosity → evidence → explanation → experiment / simulation
-          → creation → world / action → new evidence
-```
+Secure-connectivity and managed-access engineering around explicit authority, encrypted transport, lifecycle reconciliation, runtime evidence, and failure visibility.
 
-Adventure is one spatial/game-engine representation inside the University; it does not imply that every Animus system surface is gamified.
+Public product/research context is published through the Animus/Kapakka web surface. Protocol research and product runtime are kept distinct: pre-release research is not presented as a production protocol release.
+
+## Research directions
+
+### AOS / Personal Cell
+
+A local-first personal-computing direction in which models, devices, and external services are replaceable capabilities beneath a persistent user-controlled layer. Research focuses on encrypted continuity, minimum-sufficient disclosure, explicit capabilities, and useful offline operation.
+
+### University & Adventure
+
+Animus University connects primary sources, explanations, notebooks, simulations, engineering work, and spatial/interactive learning. Adventure is one representation inside that system, not the definition of the engineering program.
 
 ### Engineering systems
 
-Animus also develops evidence-driven tooling for bounded autonomous software engineering, document-governed delivery, reproducible media production and capability-scoped computation. Internal/private repositories remain private until their publication boundary is intentionally graduated.
+Private R&D explores document-governed delivery, bounded autonomous software engineering, capability-scoped computation, reproducible media production, and evidence-gated release workflows. Private repositories stay private until their publication boundary is intentional and reviewable.
 
-## Operating principles
+## Engineering contract
 
-**User authority over model authority.** AI output can propose, explain and create; it does not become identity, policy or permission by itself.
+**Evidence before claims.** Implemented behavior, release candidates, research hypotheses, and target architecture are labeled separately.
 
-**Local-first where it matters.** Personal continuity and sensitive user state are designed around user-controlled storage and devices. Network and cloud systems expand capability; they should not become the definition of the person.
+**User authority over model authority.** AI can propose, explain, and create; it does not become identity, policy, or permission by itself.
 
-**Evidence before claims.** We distinguish implemented behavior, release candidates, research hypotheses and target architecture. Exact-SHA tests, receipts and reproducible artifacts matter more than narrative confidence.
+**Explicit state ownership.** Control planes own authoritative state; execution environments report runtime evidence.
 
-**Open by graduation, not by optics.** Public work should be understandable, safe to publish and useful to others. Private R&D is not exposed merely to make an organization page look fuller.
+**Partial failure remains visible.** Degraded states should be diagnosable and reconcilable rather than silently collapsed into success/failure booleans.
 
-**The University is a system, not a content catalog.** The same knowledge can appear as story, lecture, visual explanation, evidence, primary sources, notebook, simulation, engineering task or Adventure — without changing the underlying truth/evidence contract.
+**Open by graduation, not by optics.** Public work should be safe to publish, understandable, reproducible, and useful to others.
 
-## Visual language
+**Release evidence is revision-specific.** Tests, provenance, rollback, compatibility, and operational documentation belong to the product surface.
 
-Animus uses a restrained systems aesthetic: graphite and mineral surfaces, cold cyan/teal information paths, emerald for verified state, and rare warm amber for human presence. The intent is **systemic heroism / quiet infrastructure / human signal** — grounded engineering rather than generic cyberpunk.
+## Repository status model
 
-Repository README art is stored with the source that uses it. Production documentation should not depend on temporary generation URLs or third-party image CDNs.
+We use these labels conceptually across public communication:
+
+- **Public / released** — source and interfaces are intentionally published.
+- **Public snapshot** — useful evidence, but not necessarily the canonical active development repository.
+- **Private active development** — implementation is not a public dependency.
+- **Research / pre-release** — architecture and experiments may change; no production-readiness claim is implied.
+- **Target architecture** — a design direction, not an assertion of deployed behavior.
+
+## Contributing and security
+
+Public repositories carry repository-local contribution, release, compatibility, and security documentation. Read those boundaries before changing contracts or depending on implementation details.
+
+Security-sensitive issues should follow the reporting path documented in the relevant repository rather than being disclosed in a public issue first.
 
 ## Public surfaces
 
-- `kapakka.org` — public Animus browser/research/University entry point. Link health is verified independently from this repository before release claims rely on it.
-- [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk) — currently public GitHub code surface.
-
-## Contributing
-
-Public repositories carry their own architecture, security model, test commands and contribution rules. Read repository-local `README`, `CONTRIBUTING`, security documentation and specifications before making changes. A green result in one project is not authority to widen another project's scope.
+- `kapakka.org` — public Animus entry point
+- [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk) — current public code surface
+- [Maksim Sotnikov / grewanderer](https://github.com/grewanderer) — lead engineering profile and public systems evidence
 
 ---
 
-<sub>ANIMUS · International · open source where safely graduated · human-controlled systems · reproducible evidence</sub>
+<sub>ANIMUS · human-controlled systems · explicit authority · reproducible evidence · open by graduation</sub>
