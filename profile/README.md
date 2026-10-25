@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme-hero.png" width="100%" alt="Animus — secure systems, human control. Engineering company building secure connectivity, AI infrastructure and local-first systems." />
+  <img src="./.assets/readme-hero.svg" width="100%" alt="Animus — secure systems, human control. Engineering company building secure connectivity, AI infrastructure and local-first systems." />
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 **Animus is an engineering company building secure, verifiable infrastructure that keeps people in control.**
 
-We design systems at the intersection of secure connectivity, governed AI infrastructure, developer tooling and local-first computing. Our work spans product engineering, protocols and applied research, with an emphasis on explicit trust boundaries, reproducible results and resilient operation.
+We design systems at the intersection of secure connectivity, governed AI infrastructure, developer tooling and local-first computing. Our work spans product engineering, protocols and applied research. We build infrastructure that is explainable, accountable and resilient by design.
 
 We believe good infrastructure should be **understandable, testable and accountable** — not just impressive in a demo.
 
@@ -25,11 +25,11 @@ We believe good infrastructure should be **understandable, testable and accounta
 | Area | Focus | Public maturity |
 | :--- | :--- | :--- |
 | **Animus Link** | Secure connectivity and managed access, with cryptographic identity, encrypted transport and clearly bounded authority. | Research / pre-release; no public production-v1 claim. |
-| **Animus DataLab** | Governed machine-learning workflows, dataset and experiment lineage, auditable execution and reproducible evidence. | [Python SDK publicly available](https://github.com/Animus-OSC/animus-datalab-sdk); platform implementation remains private. |
+| **Animus DataLab** | Governed machine-learning workflows, dataset and experiment lineage, auditable execution and reproducible evidence. | [Python SDK publicly available](https://github.com/Animus-OSC/animus-datalab-sdk). |
 | **AOS / Personal Cell** | Local-first, user-controlled computing with replaceable models, devices and external services. | Research direction. |
 | **Animus University & Adventure** | Engineering education connecting primary sources, experiments, simulations and interactive learning. | Education / research direction. |
 
-These are **distinct initiatives with different release boundaries**. A research direction is not a shipped product, and a public client SDK does not imply that its private platform is publicly deployed.
+These are **distinct initiatives with different release boundaries**. A research direction is not a shipped product, and a public client SDK does not imply that its private platform is publicly deployed or available.
 
 ## Open-source engineering
 
