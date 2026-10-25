@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./.assets/readme-hero.png" width="100%" alt="Animus — secure systems, human control. Engineering company building secure connectivity, AI infrastructure and local-first systems." />
+  <img src="[./.assets/readme-hero.png"](https://github.com/Animus-OSC/.github/blob/main/profile/1b473d42-f0e0-4e6a-bc2e-47ffa02c9007.png) width="100%" alt="Animus — secure systems, human control. Engineering company building secure connectivity, AI infrastructure and local-first systems." />
 </p>
 
 <p align="center">
