@@ -1,94 +1,69 @@
 <p align="center">
-  <img src="./assets/readme-hero.svg" width="100%" alt="Animus Open Source University — systems, research and world" />
+  <img src="./assets/readme-hero.svg" width="100%" alt="Animus — secure systems, human control. Engineering company building secure connectivity, AI infrastructure and local-first systems." />
 </p>
 
-# Animus OSC
+<p align="center">
+  <strong>ENGINEERED FOR TRUST. BUILT FOR CONTROL.</strong>
+</p>
 
-**Open-source engineering for human-controlled systems, reproducible AI infrastructure, and secure connectivity.**
+<p align="center">
+  <a href="https://kapakka.org">Website</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Animus-OSC/animus-datalab-sdk">Open-source SDK</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Animus-OSC/.github/blob/main/SECURITY.md">Security</a>
+</p>
 
-Animus is an engineering laboratory and open-source university. We build systems where authority, evidence, failure boundaries, and reproducibility are explicit enough to inspect and test.
+# Animus
 
-**Public entry point:** `kapakka.org`  
-**Public code:** [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk)
+**Animus is an engineering company building secure, verifiable infrastructure that keeps people in control.**
 
-## What is public today
+We design systems at the intersection of secure connectivity, governed AI infrastructure, developer tooling and local-first computing. Our work spans product engineering, protocols and applied research, with an emphasis on explicit trust boundaries, reproducible results and resilient operation.
 
-### Animus DataLab SDK
+We believe good infrastructure should be **understandable, testable and accountable** — not just impressive in a demo.
 
-A typed, zero-runtime-dependency Python SDK for governed ML and research workflows.
+## What we build
 
-- dataset and immutable-version registration
-- experiment/run lifecycle and project-scoped dispatch
-- integrity-aware artifact streaming
-- signed CI provenance
-- bounded non-blocking telemetry
-- predictable failure semantics
-- Python 3.10-3.14, PEP 561 typing and Apache-2.0 licensing
+| Area | Focus | Public maturity |
+| :--- | :--- | :--- |
+| **Animus Link** | Secure connectivity and managed access, with cryptographic identity, encrypted transport and clearly bounded authority. | Research / pre-release; no public production-v1 claim. |
+| **Animus DataLab** | Governed machine-learning workflows, dataset and experiment lineage, auditable execution and reproducible evidence. | [Python SDK publicly available](https://github.com/Animus-OSC/animus-datalab-sdk); platform implementation remains private. |
+| **AOS / Personal Cell** | Local-first, user-controlled computing with replaceable models, devices and external services. | Research direction. |
+| **Animus University & Adventure** | Engineering education connecting primary sources, experiments, simulations and interactive learning. | Education / research direction. |
 
-Repository: [Animus-OSC/animus-datalab-sdk](https://github.com/Animus-OSC/animus-datalab-sdk)
+These are **distinct initiatives with different release boundaries**. A research direction is not a shipped product, and a public client SDK does not imply that its private platform is publicly deployed.
 
-### Animus DataLab
+## Open-source engineering
 
-Governed ML infrastructure built around explicit **Control Plane / Data Plane** separation, reproducible execution, lineage, audit, bounded artifact handling, and security-sensitive deployment boundaries.
+### [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk)
 
-The current public GitHub code surface is the SDK above. Server-side implementation remains private while interfaces and release boundaries are graduated deliberately.
+A typed Python integration layer for governed ML and research workflows. It provides dataset and experiment operations, project-scoped run dispatch, signed CI provenance and bounded artifact I/O.
 
-### Animus Link
+- Zero required runtime dependencies; PEP 561 typing.
+- Explicit request identity, validation and predictable error handling.
+- Streaming and optional integrity verification for large artifacts.
+- Versioned API compatibility, tests and release documentation.
 
-Secure-connectivity and managed-access engineering around explicit authority, encrypted transport, lifecycle reconciliation, runtime evidence, and failure visibility.
+**Published scope:** the SDK is open source under Apache-2.0. The DataLab server and execution infrastructure are separate and not published by this repository.
 
-Public product/research context is published through the Animus/Kapakka web surface. Protocol research and product runtime are kept distinct: pre-release research is not presented as a production protocol release.
+## How we engineer
 
-## Research directions
+**Human authority first.** Identity, policy and permissions belong to explicit system boundaries; model output does not become authority by itself.
 
-### AOS / Personal Cell
+**Evidence before claims.** We distinguish implemented behavior, tested releases, prototypes and target architecture. Compatibility and operational guarantees should be tied to specific revisions.
 
-A local-first personal-computing direction in which models, devices, and external services are replaceable capabilities beneath a persistent user-controlled layer. Research focuses on encrypted continuity, minimum-sufficient disclosure, explicit capabilities, and useful offline operation.
+**Security as a foundation.** Authentication, encrypted communication, least privilege, failure handling and recovery are architecture decisions — not launch-day additions.
 
-### University & Adventure
+**Reproducibility over spectacle.** Traceable inputs, versioned contracts, observable execution and honest failure states matter more than vague automation claims.
 
-Animus University connects primary sources, explanations, notebooks, simulations, engineering work, and spatial/interactive learning. Adventure is one representation inside that system, not the definition of the engineering program.
+**Open source with intent.** We publish code when its license, security boundary, maturity and documentation are ready for external use and review.
 
-### Engineering systems
+## Work with us
 
-Private R&D explores document-governed delivery, bounded autonomous software engineering, capability-scoped computation, reproducible media production, and evidence-gated release workflows. Private repositories stay private until their publication boundary is intentional and reviewable.
+Start with the documentation and maturity notes of the repository you are interested in. Repository-local README, CONTRIBUTING, LICENSE and SECURITY files take precedence over general organization guidance.
 
-## Engineering contract
+For security concerns, use the affected repository's **private vulnerability-reporting** process instead of opening a public issue. General guidance is available in our [security policy](https://github.com/Animus-OSC/.github/blob/main/SECURITY.md).
 
-**Evidence before claims.** Implemented behavior, release candidates, research hypotheses, and target architecture are labeled separately.
-
-**User authority over model authority.** AI can propose, explain, and create; it does not become identity, policy, or permission by itself.
-
-**Explicit state ownership.** Control planes own authoritative state; execution environments report runtime evidence.
-
-**Partial failure remains visible.** Degraded states should be diagnosable and reconcilable rather than silently collapsed into success/failure booleans.
-
-**Open by graduation, not by optics.** Public work should be safe to publish, understandable, reproducible, and useful to others.
-
-**Release evidence is revision-specific.** Tests, provenance, rollback, compatibility, and operational documentation belong to the product surface.
-
-## Repository status model
-
-We use these labels conceptually across public communication:
-
-- **Public / released** — source and interfaces are intentionally published.
-- **Public snapshot** — useful evidence, but not necessarily the canonical active development repository.
-- **Private active development** — implementation is not a public dependency.
-- **Research / pre-release** — architecture and experiments may change; no production-readiness claim is implied.
-- **Target architecture** — a design direction, not an assertion of deployed behavior.
-
-## Contributing and security
-
-Public repositories carry repository-local contribution, release, compatibility, and security documentation. Read those boundaries before changing contracts or depending on implementation details.
-
-Security-sensitive issues should follow the reporting path documented in the relevant repository rather than being disclosed in a public issue first.
-
-## Public surfaces
-
-- `kapakka.org` — public Animus entry point
-- [Animus DataLab Python SDK](https://github.com/Animus-OSC/animus-datalab-sdk) — current public code surface
-- [Maksim Sotnikov / grewanderer](https://github.com/grewanderer) — lead engineering profile and public systems evidence
+Explore [our public repositories](https://github.com/orgs/Animus-OSC/repositories) or visit [kapakka.org](https://kapakka.org) for the wider Animus ecosystem.
 
 ---
 
-<sub>ANIMUS · human-controlled systems · explicit authority · reproducible evidence · open by graduation</sub>
+<p align="center"><sub>ANIMUS / SECURE CONNECTIVITY · REPRODUCIBLE INFRASTRUCTURE · HUMAN-CONTROLLED SYSTEMS</sub></p>
