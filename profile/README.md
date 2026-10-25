@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://kapakka.org">Website</a> &nbsp;·&nbsp;
+  <a href="https://animusosc.com">Website</a> &nbsp;·&nbsp;
   <a href="https://github.com/Animus-OSC/animus-datalab-sdk">Open-source SDK</a> &nbsp;·&nbsp;
   <a href="https://github.com/Animus-OSC/.github/blob/main/SECURITY.md">Security</a>
 </p>
@@ -62,7 +62,7 @@ Start with the documentation and maturity notes of the repository you are intere
 
 For security concerns, use the affected repository's **private vulnerability-reporting** process instead of opening a public issue. General guidance is available in our [security policy](https://github.com/Animus-OSC/.github/blob/main/SECURITY.md).
 
-Explore [our public repositories](https://github.com/orgs/Animus-OSC/repositories) or visit [kapakka.org](https://kapakka.org) for the wider Animus ecosystem.
+Explore [our public repositories](https://github.com/orgs/Animus-OSC/repositories) or visit [animusosc.com](https://animusosc.com) for the wider Animus ecosystem.
 
 ---
 
