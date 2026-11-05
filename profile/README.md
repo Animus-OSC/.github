@@ -12,8 +12,6 @@
   <a href="https://github.com/Animus-OSC/.github/blob/main/SECURITY.md">Security</a>
 </p>
 
-# Animus
-
 **Animus is an engineering company building secure, verifiable infrastructure that keeps people in control.**
 
 We design systems at the intersection of secure connectivity, governed AI infrastructure, developer tooling and local-first computing. Our work spans product engineering, protocols and applied research. We build infrastructure that is explainable, accountable and resilient by design.
